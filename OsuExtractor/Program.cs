@@ -22,7 +22,7 @@ namespace OsuExtractor
                     {
                         entry.ExtractToFile(string.Format(@"{0}\{1}", OutputDir, entry.Name), true);
                     }
-                } 
+                }
             }
         }
     }
