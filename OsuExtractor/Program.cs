@@ -20,7 +20,7 @@ namespace OsuExtractor
                 {
                     foreach (var entry in archive.Entries.Where(x => x.FullName.EndsWith(MP3)))
                     {
-                        entry.ExtractToFile(string.Format(@"{0}\{1}", OutputDir, entry.Name, true));
+                        entry.ExtractToFile(string.Format(@"{0}\{1}", OutputDir, entry.Name), true);
                     }
                 } 
             }
